@@ -1,9 +1,21 @@
 //Imports Fonts
-
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ultra&family=Xanh+Mono&display=swap');
 //Color VARS
+$primary: #002833;
+$info: #003049;
+$link: #BFF1FF;
+$success: #BFFFC8;
+$warning: #49002C;
+$danger: #491300;
+$light: #FFF4BF;
+$dark: #070424;
+
 
 //Fonts VARS
+$family-primary: 'Playfair Display', serif;
+$family-secondary: 'Ultra', serif;
+$family-code: 'Xanh Mono', monospace;
+
 
 //BULMA SCSS
 @import '../../node_modules/bulma/bulma.sass';
