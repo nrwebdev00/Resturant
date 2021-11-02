@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import '../Styles/Pages/LandingPage.scss';
 
@@ -15,11 +16,11 @@ const LandingPage = () => {
         <div className='landing-page-wrapper'>
             <div className='landing-page-top pt-3' style={{ backgroundImage: `url(${Restaurant})`}}>
                 <div className='nav-wrapper columns'>
-                    <div className='column has-text-light is-size-3 title'>Home</div>
-                    <div className='column has-text-light is-size-3 title' >About</div>
-                    <div className='column has-text-light is-size-3 title' >Order</div>
-                    <div className='column has-text-light is-size-3 title' >Login</div>
-                    <div className='column has-text-light is-size-3 title' >Signup</div>
+                    <Link to='/' className='column has-text-light is-size-3 title'>Home</Link>
+                    <Link to='/about' className='column has-text-light is-size-3 title' >About</Link>
+                    <Link to='/order' className='column has-text-light is-size-3 title' >Order</Link>
+                    <Link to='/login' className='column has-text-light is-size-3 title' >Login</Link>
+                    <Link to='/register' className='column has-text-light is-size-3 title' >Signup</Link>
                     
                 </div>
             </div>
